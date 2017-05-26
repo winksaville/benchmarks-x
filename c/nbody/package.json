@@ -1,0 +1,15 @@
+{
+  "name": "nbody",
+  "version": "0.1.0",
+  "description": "nbody benchmark",
+  "main": "index.js",
+  "author": "Wink Saville <wink@saville.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:add": "wa compile -o add.wasm add.c",
+    "build:nbody": "wa compile -o nbody.wasm nbody.c"
+  },
+  "dependencies": {
+    "webassembly": "file:/home/wink/prgs/webassembly.myfork"
+  }
+}
